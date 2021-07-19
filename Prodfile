@@ -1,1 +1,0 @@
-web: java -jar build/libs/gogster1.0.jar

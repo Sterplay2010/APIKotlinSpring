@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 @RequestMapping("/game")
-@CrossOrigin(origins = ["*"],maxAge = 3600,allowCredentials = "true")
+//@CrossOrigin(origins = ["*"],maxAge = 3600,allowCredentials = "true")
 class GameController(private val gameRepository: GameRepository) {
 
     @GetMapping
