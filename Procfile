@@ -1,1 +1,1 @@
-web: java -jar gogster/gogster.jar
+web: java -jar -Dserver.port=$PORT  gogster/gogster.jar
