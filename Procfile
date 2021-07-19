@@ -1,1 +1,1 @@
-web: java -jar build/libs/gogster.jar
+web: java -jar gogster/gogster.jar
